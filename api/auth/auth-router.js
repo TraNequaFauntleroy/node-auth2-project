@@ -28,7 +28,6 @@ router.post("/register", validateRoleName, (req, res, next) => {
       })
     })
     .catch(next)
-
 });
 
 
